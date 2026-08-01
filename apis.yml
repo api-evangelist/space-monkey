@@ -1,4 +1,16 @@
 aid: space-monkey
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/space-monkey.png
 name: Space Monkey *
 description: 'Space Monkey * is a company surfaced as a portfolio company of gv and added to the API Evangelist
   network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
@@ -12,7 +24,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Probed spacemonkey.com plus www/api/developer subdomains — no DNS records
+    resolve; domain is dead. Space Monkey (GV-backed distributed-storage startup) has
+    no live API surface, docs host, or reachable web presence. No artifacts fabricated.'
 tags:
 - Company
 - Frontier Tech
